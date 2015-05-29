@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Bulbasaur",
+    "description": ""
+  },
+  {
+    "name": "Ivysaur",
+    "description": ""
+  },
+  {
+    "name": "Venusaur",
+    "description": ""
+  },
+  {
+    "name": "Charmander",
+    "description": ""
+  },
+  {
+    "name": "Charmeleon",
+    "description": ""
+  },
+  {
+    "name": "Charizard",
+    "description": ""
+  },
+  {
+    "name": "Squirtle",
+    "description": ""
+  },
+  {
+    "name": "Wartortle",
+    "description": ""
+  },
+  {
+    "name": "Blastoise",
+    "description": ""
+  },
+  {
+    "name": "Caterpie",
+    "description": ""
+  },
+  {
+    "name": "Metapod",
+    "description": ""
+  },
+  {
+    "name": "Butterfree",
+    "description": ""
+  },
+  {
+    "name": "Weedle",
+    "description": ""
+  },
+  {
+    "name": "Kakuna",
+    "description": ""
+  },
+  {
+    "name": "Beedrill",
+    "description": ""
+  },
+  {
+    "name": "Pidgey",
+    "description": ""
+  },
+  {
+    "name": "Pidgeotto",
+    "description": ""
+  },
+  {
+    "name": "Pidgeot",
+    "description": ""
+  },
+  {
+    "name": "Rattata",
+    "description": ""
+  },
+  {
+    "name": "Raticate",
+    "description": ""
+  },
+  {
+    "name": "Spearow",
+    "description": ""
+  },
+  {
+    "name": "Fearow",
+    "description": ""
+  },
+  {
+    "name": "Ekans",
+    "description": ""
+  },
+  {
+    "name": "Arbok",
+    "description": ""
+  },
+  {
+    "name": "Pikachu",
+    "description": ""
+  },
+  {
+    "name": "Raichu",
+    "description": ""
+  },
+  {
+    "name": "Sandshrew",
+    "description": ""
+  }
+]

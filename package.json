@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/Mifmum/Pokemon-demo",
   "devDependencies": {
-    "http-server": "^0.8.0"
+    "graceful-fs": "^3.0.7",
+    "http-server": "^0.8.0",
+    "minimist": "^1.1.1",
+    "osenv": "^0.1.1"
   }
 }
