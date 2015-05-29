@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node node_modules/http-server/bin/http-server",
-    "clean": "echo \"\nDeleting pokemon in public\\pokmeon\n\" && rm public/pokemon/*",
-    "generate": "npm run clean && node ./bin/pokemonGenerator.js"
+    "start": "node node_modules/http-server/bin/http-server",
+    "clean": "node ./bin/pokemonGenerator.js --clean",
+    "generate": "npm run clean && node ./bin/pokemonGenerator.js --generate",
+    "watch": "node ./bin/pokemonGenerator.js --watch"
   },
   "repository": {
     "type": "git",
@@ -20,10 +21,14 @@
   },
   "homepage": "https://github.com/Mifmum/Pokemon-demo",
   "devDependencies": {
+    "chalk": "^1.0.0",
+    "glob": "^5.0.10",
+    "glob-watcher": "^2.0.0",
     "graceful-fs": "^3.0.7",
     "http-server": "^0.8.0",
     "jade": "^1.10.0",
     "minimist": "^1.1.1",
+    "mkdirp": "^0.5.1",
     "osenv": "^0.1.1"
   }
 }

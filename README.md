@@ -9,15 +9,6 @@ This will install the necessary node modules to run the application
 npm i
 ```
 
-## Server
-
-To run the local server type:
-```
-npm run server
-```
-
-This will start the http-server locally, serving your page to http://localhost:8080
-
 ## Generate Pokemon Static HTML from pokedex.json
 
 type:
@@ -25,6 +16,17 @@ type:
 ```
 npm run generate
 ```
+
+You should run the generate command before running the start command
+
+## Server
+
+To run the local server type:
+```
+npm run start
+```
+
+This will start the http-server locally, serving your page to http://localhost:8080
 
 ## Code
 
