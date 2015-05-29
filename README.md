@@ -27,3 +27,5 @@ This will start the http-server locally, serving your page to http://localhost:8
 All the HTML, CSS and Javascript for the app will be located in the `public` folder.
 
 Bootstrap is included so if you need help styling, just refer to this: http://getbootstrap.com/css/
+
+we could use this as well: http://pokeapi.co/
