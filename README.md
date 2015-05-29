@@ -11,21 +11,34 @@ npm i
 
 ## Server
 
-To run the local server, just enter the following command in your terminal.
-(From the Pokemon-demo folder)
-
-PLEASE NOTE:  This will not work unless you have run the following command (only once) `npm i`.
-
+To run the local server type:
 ```
-  node node_modules/http-server/bin/http-server
+npm run server
 ```
 
 This will start the http-server locally, serving your page to http://localhost:8080
 
+## Generate Pokemon Static HTML from pokedex.json
+
+type:
+
+```
+npm run generate
+```
+
 ## Code
 
-All the HTML, CSS and Javascript for the app will be located in the `public` folder.
+All of the HTML, CSS and JS is located in `public`.
 
-Bootstrap is included so if you need help styling, just refer to this: http://getbootstrap.com/css/
+The CSS is in `public/styles`.
 
-we could use this as well: http://pokeapi.co/
+The JS is in `public/scripts`.
+
+The HTML is at `public/index.html` and `public/pokemon/*.html`
+
+For help with the Jade Template language goto:  http://jade-lang.com/reference/
+
+For help with Bootstrap goto:  http://getbootstrap.com/css/
+
+## ROADMAP
+* use AJAX and (needs node library conversion) http://pokeapi.co/

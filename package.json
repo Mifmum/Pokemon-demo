@@ -4,7 +4,10 @@
   "description": "a pokemon site for learning web development",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node node_modules/http-server/bin/http-server",
+    "clean": "echo \"\nDeleting pokemon in public\\pokmeon\n\" && rm public/pokemon/*",
+    "generate": "npm run clean && node ./bin/pokemonGenerator.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +22,7 @@
   "devDependencies": {
     "graceful-fs": "^3.0.7",
     "http-server": "^0.8.0",
+    "jade": "^1.10.0",
     "minimist": "^1.1.1",
     "osenv": "^0.1.1"
   }
