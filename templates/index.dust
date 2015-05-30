@@ -1,0 +1,44 @@
+{>"page"/}
+
+{<title}Pokemon!{/title}
+
+{<header}
+  <p class="lead">The all pokemon website all pokemon reference at your fingertips!</p>
+{/header}
+
+{<main}
+  <section class="row pokemon-list">
+    <ul class="col-sm-12">
+      <li><a href="pokemon/Bulbasaur.html">Bulbasaur</a></li>
+      <li><a href="pokemon/Ivysaur.html">Ivysaur</a></li>
+      <li><a href="pokemon/Venusaur.html">Venusaur</a></li>
+      <li><a href="pokemon/Charmander.html">Charmander</a></li>
+      <li><a href="pokemon/Charmeleon.html">Charmeleon</a></li>
+      <li><a href="pokemon/Charizard.html">Charizard</a></li>
+      <li><a href="pokemon/Squirtle.html">Squirtle</a></li>
+      <li><a href="pokemon/Wartortle.html">Wartortle</a></li>
+      <li><a href="pokemon/Blastoise.html">Blastoise</a></li>
+      <li><a href="pokemon/Caterpie.html">Caterpie</a></li>
+      <li><a href="pokemon/Metapod.html">Metapod</a></li>
+      <li><a href="pokemon/Butterfree.html">Butterfree</a></li>
+      <li><a href="pokemon/Weedle.html">Weedle</a></li>
+      <li><a href="pokemon/Kakuna.html">Kakuna</a></li>
+      <li><a href="pokemon/Beedrill.html">Beedrill</a></li>
+      <li><a href="pokemon/Pidgey.html">Pidgey</a></li>
+      <li><a href="pokemon/Pidgeotto.html">Pidgeotto</a></li>
+      <li><a href="pokemon/Pidgeot.html">Pidgeot</a></li>
+      <li><a href="pokemon/Rattata.html">Rattata</a></li>
+      <li><a href="pokemon/Raticate.html">Raticate</a></li>
+      <li><a href="pokemon/Spearow.html">Spearow</a></li>
+      <li><a href="pokemon/Fearow.html">Fearow</a></li>
+      <li><a href="pokemon/Ekans.html">Ekans</a></li>
+      <li><a href="pokemon/Arbok.html">Arbok</a></li>
+      <li><a href="pokemon/Pikachu.html">Pikachu</a></li>
+      <li><a href="pokemon/Raichu.html">Raichu</a></li>
+      <li><a href="pokemon/Sandshrew.html">Sandshrew</a></li>
+    </ul>
+  <section>
+{/main}
+
+{! don't include the footer! !}
+{<footer}{/footer}

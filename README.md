@@ -14,8 +14,16 @@ npm i
 type:
 
 ```
-npm run generate
+npm run build
 ```
+Running the `build` command will run `npm run clean` as well as `npm run generate`
+
+
+```
+npm run watch
+```
+Watches all templates in `/templates/*.dust` and `/data/pokedex.json` for changes, internally calls `npm run clean && npm run build`
+
 
 You should run the generate command before running the start command
 

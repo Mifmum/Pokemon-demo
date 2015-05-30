@@ -1,0 +1,15 @@
+{>"page"/}
+
+{<title}{data.name} | Pokemon{/title}
+
+{<header}
+  <h1>{data.name}</h1>
+{/header}
+
+{<main}
+  <section class="row">
+    <div class="col-sm-12">
+      <p class="lead">{data.description}</p>
+    </div>
+  </section>
+{/main}
